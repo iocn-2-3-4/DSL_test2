@@ -17,7 +17,7 @@ def pathWorkspace = "/var/lib/jenkins/workspace/${folderName}"
 job("${folderName}/cloneFromGit") {
     logRotator(-1, 10)
     scm {
-        github('pingwin4ik/web', 'master')
+        github('iocn-2-3-4/DSL_test2', 'master')
     }
     triggers {
        // githubPush()
