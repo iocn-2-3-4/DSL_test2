@@ -33,7 +33,7 @@ job("${folderName}/cloneFromGit") {
 job("${folderName}/createBuldTestJobs") {
     logRotator(-1, 10)
     scm {
-        github('pingwin4ik/dsl', 'master')
+        github('iocn-2-3-4/DSL_test2', 'master')
     }
     triggers {
         // githubPush()
